@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = {".//FeatureFile1/Login1.feature"},	// path to run feature files 	
 	  	glue = "StepsDefinition1", 	// step definition package name
 		dryRun =  false,
-		monochrome = true,		// To print output in Readable format
+		monochrome = false,		// To print output in Readable format
 		plugin = {"pretty", "html:target/Reports/tags.html"}	//  To generate report under Target folder.
 		)	
 
